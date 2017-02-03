@@ -1,0 +1,26 @@
+/* pages/meizi/meizi.wxss */
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content:space-around;
+    /*margin-left: 10rpx;
+    margin-right: 10rpx;
+    margin-bottom: 10rpx;*/
+}
+
+image{
+    width: 370rpx;
+    height: 370rpx;
+
+}
+
+.load-more{
+    text-align: center;
+    font-size: 30rpx;
+    color: gray;
+    position:absolute;
+    margin-left: -56rpx;
+    left:50%;
+
+}

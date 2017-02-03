@@ -1,0 +1,13 @@
+/* pages/me/me.wxss */
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+image{
+    width: 750rpx;
+    height: 750rpx;
+
+}

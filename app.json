@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/meizi/meizi",
+    "pages/meizi/show-image/show-image",
+    "pages/me/me",
+    "pages/me/collected/collected"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Gank妹子",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/meizi/meizi",
+        "text": "妹子",
+        "iconPath":"/images/meizi-normal.png",
+        "selectedIconPath":"/images/meizi-selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath":"/images/me-normal.png",
+        "selectedIconPath":"/images/me-selected.png"
+      }
+    ]
+  }
+}

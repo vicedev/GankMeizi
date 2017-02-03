@@ -1,0 +1,5 @@
+<!--pages/me/me.wxml-->
+<view>
+<image src="/images/icon.jpg"></image>
+<button catchtap="collected">我的收藏</button>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/meizi/show-image/show-image.wxml-->
+<view class=".container" catchlongtap="onLongTap">
+<image src="{{imageUrl}}" mode="aspectFit" binderror="onBindError" bindload="onBindLoad"></image>
+</view>

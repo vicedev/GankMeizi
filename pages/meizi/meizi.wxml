@@ -1,0 +1,10 @@
+
+<!--pages/meizi/meizi.wxml-->
+<view class="container">
+  <block wx:for="{{meizi.results}}" wx:key="{{item.url}}">
+    <view class="image-item" catchtap="onImageTap" data-image-index="{{index}}">
+      <image src="{{item.url}}" mode="aspectFill"></image>
+    </view>
+  </block>
+</view>
+<text class="load-more">加载中...</text>
